@@ -9,7 +9,6 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class PasswordStrengthComponent {
 
   form!: FormGroup;
-  strengths: string[] = [];
 
   ngOnInit() {
     this.form = new FormGroup({
